@@ -11,7 +11,8 @@
 	$BanglaDate=new ShowBanglaDateTime();
 	
 	echo $BanglaDate->bangla_date_time('2012-09-03 09:06:05');
-	echo $BanglaDate->bangla_date_time(date('Y-M-d h:i'));
+	echo "<br />";
+	echo $BanglaDate->bangla_date_time(date('d M Y h:i'));
 	?>
 </body>
 </html>

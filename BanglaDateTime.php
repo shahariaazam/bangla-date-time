@@ -7,7 +7,7 @@
  */
 class ShowBanglaDateTime{
 		//Base function
-    public function ShowBanglaDateTime($str){
+    public function bangla_date_time($str){
 		$eng = array('January','February','March','April','May','June','July','August','September','October','November','December',
 					 'Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec',
 					 'Saturday','Sunday','Monday','Tuesday','Wednesday','Thursday','Friday',
